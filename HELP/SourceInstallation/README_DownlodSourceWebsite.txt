@@ -134,7 +134,7 @@ Setting up Eclipse Projects:
 	- On the menu that pops up, click "Properties->C/C++ Build->Settings->MinGW C++ Linker->Miscellaneous"
 		- Make sure the "[All configurations]" is selected for "Configurations"
 		- [WINDOWS/LINUX] Modify the linker flags field to include the following: 
-		  "static-libgcc -static-libstdc++"
+		  "-static-libgcc -static-libstdc++"
 
 
 Running your first Simulation:
